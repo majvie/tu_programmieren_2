@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1602073563 source:c:\users\cerv\desktop\iueduma\main.c
+	<stdio.h>
+	<stdlib.h>
+	"duma.h"
+
+1602072651 c:\users\cerv\desktop\iueduma\duma.h
+	<stdlib.h>
+	"noduma.h"
+	"duma_config.h"
+
+1602072651 c:\users\cerv\desktop\iueduma\noduma.h
+
+1602072651 c:\users\cerv\desktop\iueduma\duma_config.h
+
+1602072651 source:c:\users\cerv\desktop\iueduma\example1.cpp
+	<stdlib.h>
+	"duma.h"
+
+1602072651 source:c:\users\cerv\desktop\iueduma\example2.cpp
+	<stdlib.h>
+	"duma.h"
+
+1602146135 source:c:\users\johan\desktop\iueduma\example1.cpp
+	<stdlib.h>
+	"duma.h"
+
+1602146134 c:\users\johan\desktop\iueduma\duma.h
+	<stdlib.h>
+	"noduma.h"
+	"duma_config.h"
+
+1602146134 c:\users\johan\desktop\iueduma\noduma.h
+
+1602146134 c:\users\johan\desktop\iueduma\duma_config.h
+
+1602146134 source:c:\users\johan\desktop\iueduma\example2.cpp
+	<stdlib.h>
+	"duma.h"
+
+1602146133 source:c:\users\johan\desktop\iueduma\example3.cpp
+	<stdlib.h>
+	<duma.h>
+
+1602146134 source:c:\users\johan\desktop\iueduma\example4.cpp
+	<stdlib.h>
+	<new>
+	<duma.h>
+	<dumapp.h>
+
+1602147697 source:c:\users\johan\desktop\iueduma\example5.cpp
+	<stdlib.h>
+	<new>
+	<duma.h>
+	<dumapp.h>
+
+1602146134 source:c:\users\johan\desktop\iueduma\example6.cpp
+
+1602146133 source:c:\users\johan\desktop\iueduma\testalloc0.cpp
+	<stdlib.h>
+	<stdio.h>
+	<new>
+
+1602146134 source:c:\users\johan\desktop\iueduma\testoperators.cpp
+	<stdio.h>
+	<new>
+	"dumapp.h"
+	"noduma.h"
+	"noduma.h"
+	"dumapp.h"
+	"noduma.h"
+	"dumapp.h"
+	"noduma.h"
+	"dumapp.h"
+
+1602146134 c:\users\johan\desktop\iueduma\dumapp.h
+	"duma.h"
+	"noduma.h"
+	"duma_sem.h"
+	"duma.h"
+
+1602146134 c:\users\johan\desktop\iueduma\duma_sem.h
+
+1602146133 source:c:\users\johan\desktop\iueduma\tstheap.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<limits.h>
+	<memory.h>
+	"duma.h"
+

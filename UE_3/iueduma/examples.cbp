@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="examples" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/examples" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/examples" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="example1">
+				<Option output="bin/Debug/example1" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="example2">
+				<Option output="bin/Debug/example2" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="example3">
+				<Option output="bin/Debug/example3" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="example4">
+				<Option output="bin/Debug/example4" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="example5">
+				<Option output="bin/Debug/example5" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++03" />
+				</Compiler>
+			</Target>
+			<Target title="example6">
+				<Option output="bin/Debug/example6" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="testalloc0">
+				<Option output="bin/Debug/testalloc0" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="testoperators">
+				<Option output="bin/Debug/testoperators" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+			<Target title="tstheap">
+				<Option output="bin/Debug/tstheap" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="all" targets="Debug;Release;example1;example2;example3;example4;example5;example6;testalloc0;testoperators;tstheap;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-I." />
+		</Compiler>
+		<Linker>
+			<Add option="..\iueduma\bin\Debug\libduma.a -lpthread" />
+		</Linker>
+		<Unit filename="example1.cpp">
+			<Option target="example1" />
+		</Unit>
+		<Unit filename="example2.cpp">
+			<Option target="example2" />
+		</Unit>
+		<Unit filename="example3.cpp">
+			<Option target="example3" />
+		</Unit>
+		<Unit filename="example4.cpp">
+			<Option target="example4" />
+		</Unit>
+		<Unit filename="example5.cpp">
+			<Option target="example5" />
+		</Unit>
+		<Unit filename="example6.cpp">
+			<Option target="example6" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="testalloc0.cpp">
+			<Option target="testalloc0" />
+		</Unit>
+		<Unit filename="testoperators.cpp">
+			<Option target="testoperators" />
+		</Unit>
+		<Unit filename="tstheap.c">
+			<Option compilerVar="CC" />
+			<Option target="tstheap" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

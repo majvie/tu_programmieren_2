@@ -1,0 +1,135 @@
+# depslib dependency file v1.0
+1602072651 source:c:\users\cerv\desktop\iueduma\duma.c
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<signal.h>
+	<errno.h>
+	<stdarg.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<sys/types.h>
+	<windows.h>
+	<winbase.h>
+	<io.h>
+	<crtdbg.h>
+	"duma.h"
+	"noduma.h"
+	"print.h"
+	"duma_sem.h"
+	"paging.h"
+	"duma_hlp.h"
+
+1602072651 c:\users\cerv\desktop\iueduma\duma.h
+	<stdlib.h>
+	"noduma.h"
+	"duma_config.h"
+
+1602072651 c:\users\cerv\desktop\iueduma\noduma.h
+
+1602072651 c:\users\cerv\desktop\iueduma\duma_config.h
+
+1602072651 c:\users\cerv\desktop\iueduma\print.h
+
+1602072651 c:\users\cerv\desktop\iueduma\duma_sem.h
+
+1602072651 c:\users\cerv\desktop\iueduma\paging.h
+
+1602072651 c:\users\cerv\desktop\iueduma\duma_hlp.h
+
+1602073386 source:c:\users\cerv\desktop\iueduma\print.c
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	<stdarg.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/param.h>
+	<windows.h>
+	<winbase.h>
+	<io.h>
+	<unistd.h>
+	<fcntl.h>
+	<crtdbg.h>
+	"duma.h"
+	"noduma.h"
+	"print.h"
+
+1602072651 source:c:\users\cerv\desktop\iueduma\sem_inc.c
+	"duma_config.h"
+	"duma_sem.h"
+	"print.h"
+	<pthread.h>
+	<semaphore.h>
+	<windows.h>
+	<winbase.h>
+
+1602146134 source:c:\users\johan\desktop\iueduma\duma.c
+	<stdlib.h>
+	<stdio.h>
+	<memory.h>
+	<string.h>
+	<signal.h>
+	<errno.h>
+	<stdarg.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/mman.h>
+	<sys/types.h>
+	<windows.h>
+	<winbase.h>
+	<io.h>
+	<crtdbg.h>
+	"duma.h"
+	"noduma.h"
+	"print.h"
+	"duma_sem.h"
+	"paging.h"
+	"duma_hlp.h"
+
+1602146134 c:\users\johan\desktop\iueduma\duma.h
+	<stdlib.h>
+	"noduma.h"
+	"duma_config.h"
+
+1602146134 c:\users\johan\desktop\iueduma\noduma.h
+
+1602146134 c:\users\johan\desktop\iueduma\duma_config.h
+
+1602146135 c:\users\johan\desktop\iueduma\print.h
+
+1602146134 c:\users\johan\desktop\iueduma\duma_sem.h
+
+1602146135 c:\users\johan\desktop\iueduma\paging.h
+
+1602146134 c:\users\johan\desktop\iueduma\duma_hlp.h
+
+1602146134 source:c:\users\johan\desktop\iueduma\print.c
+	<stdlib.h>
+	<string.h>
+	<signal.h>
+	<stdarg.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/param.h>
+	<windows.h>
+	<winbase.h>
+	<io.h>
+	<unistd.h>
+	<fcntl.h>
+	<crtdbg.h>
+	"duma.h"
+	"noduma.h"
+	"print.h"
+
+1602146134 source:c:\users\johan\desktop\iueduma\sem_inc.c
+	"duma_config.h"
+	"duma_sem.h"
+	"print.h"
+	<pthread.h>
+	<semaphore.h>
+	<windows.h>
+	<winbase.h>
+
